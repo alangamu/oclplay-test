@@ -2,8 +2,8 @@
 
 public class BackgroundMovement : MonoBehaviour
 {
-    [SerializeField]
-    private LevelVariable _dificultyLevel;
+    //[SerializeField]
+    //private LevelVariable _dificultyLevel;
     [SerializeField]
     private Vector2 _movementSpeed;
     [SerializeField]
