@@ -10,6 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7243921250931583381}
   - component: {fileID: 8482336431513437508}
+  - component: {fileID: 2606824269398845250}
   m_Layer: 0
   m_Name: Treasure
   m_TagString: Untagged
@@ -84,3 +85,17 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &2606824269398845250
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 572975562546437727}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 888a1a234d5b0ff43a4efc0c12110170, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _index: 0
+  _levelVariable: {fileID: 11400000, guid: 028835ad5795bd34293fb4280927186c, type: 2}
