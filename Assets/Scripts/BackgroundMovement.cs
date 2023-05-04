@@ -2,8 +2,6 @@
 
 public class BackgroundMovement : MonoBehaviour
 {
-    //[SerializeField]
-    //private LevelVariable _dificultyLevel;
     [SerializeField]
     private Vector2 _movementSpeed;
     [SerializeField]
@@ -21,7 +19,7 @@ public class BackgroundMovement : MonoBehaviour
     {
         if (_isGameStartedVariable.Value)
         {
-            _offset = _dificultyLevel.Value * Time.deltaTime * _movementSpeed;
+            _offset = Time.deltaTime * _movementSpeed;
             _material.mainTextureOffset += _offset;
         }
     }

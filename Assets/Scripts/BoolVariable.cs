@@ -7,4 +7,9 @@ public class BoolVariable : ScriptableObject
 
     [SerializeField]
     private bool _value;
+
+    public void SetValue(bool value)
+    {
+        _value = value;
+    }
 }
