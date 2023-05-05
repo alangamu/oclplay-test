@@ -18,7 +18,7 @@ public class TreasureMovement : MonoBehaviour
     {
         if (_canMove)
         {
-            transform.Translate(_dificultyLevel.Value * _movementSpeed * Time.deltaTime * Vector3.left);
+            transform.Translate((1 + _dificultyLevel.Value * .3f) * _movementSpeed * Time.deltaTime * Vector3.left);
         }
     }
 }

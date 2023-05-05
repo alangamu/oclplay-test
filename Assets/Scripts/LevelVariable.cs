@@ -8,10 +8,4 @@ public class LevelVariable : ScriptableObject
     [SerializeField]
     [Range(1, 3)]
     private int _value;
-
-
-    //public void SetValue(int value)
-    //{
-    //    _value = value;
-    //}
 }

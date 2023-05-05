@@ -1120,14 +1120,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   template:
     animationReference: {fileID: 11400000, guid: b6cdb5d9e7a484f89a09e790182d4911, type: 2}
-    loop: 0
-    customDuration: 0
+    loop: 1
+    customDuration: 1
     useBlendDuration: 1
     isInitialized: 1
     mixDuration: 0.1
     holdPrevious: 0
     dontPauseWithDirector: 0
-    dontEndWithClip: 0
+    dontEndWithClip: 1
     endMixOutDuration: 0.1
     attachmentThreshold: 0.5
     eventThreshold: 0.5
